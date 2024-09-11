@@ -1,0 +1,126 @@
+/* contactForm.module.css */
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+.style {
+   
+    position: static;
+    direction: rtl;
+    width: 60vw;
+    height: 60vh;
+    justify-self: center; /* This property is not needed for centering the div itself */
+    margin: 0 auto; /* Center horizontally */
+  
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+ 
+   
+  }
+  
+ h1 {
+    font-size: 24px; /* Increased font size for better readability */
+    margin-bottom: 20px;
+    color: #8f3c3c; /* Added color for better contrast */
+}
+
+ section {
+    background-color: #d48c8c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a more prominent effect */
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+}
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8f3c3c; /* Lightened the color for better contrast with the background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4a90e2;
+    background-color: #fff; /* Lighten the background color on focus */
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px; /* Slightly increased the minimum height for more space */
+}
+
+ button {
+    padding: 14px; /* Increased padding for better touch targets */
+    border: none;
+    border-radius: 4px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+ button:hover {
+    background-color: #357ab8;
+    transform: translateY(-2px); /* Adds a slight lift effect on hover */
+}
+
+.container button:active {
+    background-color: #2a5c8a; /* Darker shade when the button is pressed */
+}
+
+@media (max-width: 1250px) {
+    .style {
+      
+        width: 80vw;
+        height: 40vh;
+        justify-self: center; /* This property is not needed for centering the div itself */
+        margin: 0 auto; /* Center horizontally */
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        margin-top: 30%;
+      }
+      .container {
+        display: block; /* Block-level element */
+        width: 80%; /* Set a width less than 100% to allow centering */
+        max-width: 600px; /* Optional: Limit the max-width for better control */
+        margin: 20px auto 0; /* Auto margin on left and right to center horizontally */
+        position: static; /* Ensure it follows the normal document flow */
+    }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+  }
+
+  input[type="date"] {
+    cursor: pointer;
+  }

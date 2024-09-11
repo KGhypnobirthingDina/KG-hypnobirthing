@@ -1,0 +1,38 @@
+.container p{
+    text-align: right;
+    direction: rtl;
+
+max-width: 44vw;
+    font-size: 1.3vw;
+     margin: 0 auto; padding: 10px; 
+}
+.container ul li{
+    text-align: right;
+    direction: rtl;
+    margin: 0 auto; 
+width: 38vw;
+    font-size: 1.3vw;
+
+     
+}
+.container h2 {
+    direction: rtl;
+    text-align: right;
+    width: 72vw;
+    
+}
+.container ul li {
+    margin-bottom: 1vh;
+}
+
+@media(max-width: 1250px) {
+    .container p {
+        font-size: 3vw;
+        max-width: 60vw;
+    }
+
+    .container ul li {
+        font-size: 3vw;
+        max-width: 60vw;
+    }
+}

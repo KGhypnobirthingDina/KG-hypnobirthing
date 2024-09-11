@@ -1,0 +1,79 @@
+/* Style for the sidebar container */
+.container {
+    height: 15vh; /* Adjust the height as needed */
+    width: 100%; /* Full width of the viewport */
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    background-color: #e1a0a0; /* Background color */
+    box-shadow: 0 1px 5px rgba(30, 27, 27, 0.4); /* Shadow for the bar */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    z-index: 1000; /* Ensure it is above other content */
+    padding: 0 10px; /* Add some padding */
+    
+}
+
+/* Style for the logo */
+
+
+/* Style for the navigation list */
+ .container ul {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    padding: 0;
+
+    list-style-type: none; /* Remove bullet points */
+    justify-content: center;
+
+}
+
+/* Style for individual navigation items */
+.container li {
+   
+    margin-right: 5vw;
+    font-size: 2vw; /* Adjust font size */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Style for navigation links */
+.container a {
+    color: rgb(134, 72, 72);
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+
+}
+
+/* Style for the active navigation item */
+
+.active {
+    color: rgb(95, 2, 2);
+    border-radius: 6%;
+    background-color: rgb(194, 73, 79);
+    padding-left: 5px;
+    padding-right: 5px;
+ 
+}
+/* Optional: Add hover effect */
+.container li:hover {
+       color: rgb(95, 2, 2);/* Change color on hover */
+}
+
+@media (max-width: 1250px) {
+
+.container    li {
+      
+     
+        font-size: 3.5vw; /* Adjust font size */
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+    .container {
+        display: none;
+        height: 10vh;
+    } 
+ .container ul {
+    margin-right: 4vw;
+ }
+}
