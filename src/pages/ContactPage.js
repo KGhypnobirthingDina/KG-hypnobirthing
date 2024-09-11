@@ -9,10 +9,10 @@ export default function ContactPage() {
     return (
         <div>
             <Header>צרי קשר</Header>
-              <SideBar />
-              <SideBarSmall />
-             <ContactDetails />
-              <Contact  style={"style"}/>
+            <SideBar />
+            <SideBarSmall />
+            <ContactDetails />
+            <Contact style={"style"} />
         </div>
     )
 }

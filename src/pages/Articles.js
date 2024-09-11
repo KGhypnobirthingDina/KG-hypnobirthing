@@ -5,14 +5,14 @@ import WhatsappSmall from "../components/WhatsappSmall"
 import SideBarSmall from "../components/SideBarSmall"
 import Contact from "../components/Contact"
 export default function Articles () {
-    return (<div>
-
-<SideBar />
-<SideBarSmall />
-<Header>מאמרים</Header>
-<ArticlesComp />
-<Contact />
-<WhatsappSmall />
+    return (
+    <div>
+      <SideBar />
+      <SideBarSmall />
+      <Header>מאמרים</Header>
+      <ArticlesComp />
+      <Contact />
+      <WhatsappSmall />  
     </div>
     
   

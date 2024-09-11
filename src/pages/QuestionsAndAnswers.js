@@ -1,7 +1,6 @@
 import React from "react";
 import Questions from "../components/Questions";
 import Contact from "../components/Contact"
-import Logo from "../components/Logo";
 import SideBarSmall from "../components/SideBarSmall"
 import WhatsappSmall from "../components/WhatsappSmall"
 import Header from "../components/Header";

@@ -1,8 +1,5 @@
 import Header from "./Header";
 import styles from "./RefundComp.module.css"
-import SideBar from "./SideBar";
-import Contact from "./Contact"
-import SideBarSmall from "./SideBarSmall";
 
 export default function RefundComp() {
 
