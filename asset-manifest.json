@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/css/main.a4858c2e.css",
+    "main.js": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/js/main.504c7cdf.js",
+    "static/js/453.f62e4210.chunk.js": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/js/453.f62e4210.chunk.js",
+    "static/media/WhatsAppIcon.svg": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/media/WhatsAppIcon.6181e5cecd1a682846ba3e623621a869.svg",
+    "index.html": "/GalMir123/KG-hypnobirthing-soft-birth-course/index.html",
+    "main.a4858c2e.css.map": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/css/main.a4858c2e.css.map",
+    "main.504c7cdf.js.map": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/js/main.504c7cdf.js.map",
+    "453.f62e4210.chunk.js.map": "/GalMir123/KG-hypnobirthing-soft-birth-course/static/js/453.f62e4210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4858c2e.css",
+    "static/js/main.504c7cdf.js"
+  ]
+}
