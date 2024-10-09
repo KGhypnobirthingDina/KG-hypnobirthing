@@ -1,14 +1,14 @@
-import CourseCalendar from "../components/CourseCalendar"
-import SideBar from "../components/SideBar"
+import CourseCalendar from "../components/CourseCalendar";
+import SideBar from "../components/SideBar";
 
-import SideBarSmall from "../components/SideBarSmall"
+import SideBarSmall from "../components/SideBarSmall";
 export default function Calendar() {
-    return (
-        <div>
-            <SideBar />
-            <SideBarSmall />
+  return (
+    <div>
+      <SideBar />
+      <SideBarSmall />
 
-            <CourseCalendar />
-        </div>
-    )
+      <CourseCalendar />
+    </div>
+  );
 }

@@ -1,16 +1,14 @@
 .container {
-    display: none;
+  display: none;
 }
 
-@media(max-width: 1250px) {
-
-        .container {
-            display: block;
-            position: fixed;
-            right: 5vw;
-            bottom: 5vw;
-         cursor: pointer;
-           width: 16vw;
- 
-    }
+@media (max-width: 1250px) {
+  .container {
+    display: block;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    cursor: pointer;
+    width: 16vw;
+  }
 }

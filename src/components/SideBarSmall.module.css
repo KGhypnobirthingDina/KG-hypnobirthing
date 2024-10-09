@@ -1,91 +1,90 @@
 /* Style for the sidebar container */
 .container {
-    display: none; /* Hide the container by default */
+  display: none; /* Hide the container by default */
 }
 
 /* Style for the logo */
 .logo {
-    flex: 1; /* Allows the logo to take up available space */
-    text-align: center; /* Center the logo horizontally */
+  flex: 1; /* Allows the logo to take up available space */
+  text-align: center; /* Center the logo horizontally */
 }
 
 /* Style for the navigation list */
 .container ul {
-    display: flex;
-    flex-direction: column; /* Vertical layout for options */
-    padding: 0;
-    margin: 0; /* Reset margin */
-    list-style-type: none; /* Remove bullet points */
-    align-items: center; /* Center items horizontally */
-    
+  display: flex;
+  flex-direction: column; /* Vertical layout for options */
+  padding: 0;
+  margin: 0; /* Reset margin */
+  list-style-type: none; /* Remove bullet points */
+  align-items: center; /* Center items horizontally */
 }
 
 /* Style for individual navigation items */
 .container li {
-    margin-bottom: 1rem; /* Space between items */
-    font-size: 2vw; /* Adjust font size */
-    cursor: pointer;
-    transition: color 0.3s ease;
+  margin-bottom: 1rem; /* Space between items */
+  font-size: 2vw; /* Adjust font size */
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 /* Style for navigation links */
 .container a {
-    color: rgb(134, 72, 72);
-    text-decoration: none; /* Remove underline */
-    font-size: 18px;
+  color: rgb(134, 72, 72);
+  text-decoration: none; /* Remove underline */
+  font-size: 18px;
 }
 
 /* Style for the active navigation item */
 .active {
-    color: rgb(95, 2, 2);
-    border-radius: 6%;
-    background-color: rgb(194, 73, 79);
-    padding-left: 5px;
-    padding-right: 5px;
+  color: rgb(95, 2, 2);
+  border-radius: 6%;
+  background-color: rgb(194, 73, 79);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* Optional: Add hover effect */
 .container li:hover {
-    color: rgb(95, 2, 2); /* Change color on hover */
+  color: rgb(95, 2, 2); /* Change color on hover */
 }
 
 @media (max-width: 1250px) {
-    .container {
-        display: flex; /* Show the container */
-        height: 10vh; /* Adjust height */
-        width: 100%; /* Full width of the viewport */
-        position: fixed; /* Fixed at the top */
-        top: 0;
-        background-color: #e1a0a0; /* Background color */
-        box-shadow: 0 1px 5px rgba(30, 27, 27, 0.4); /* Shadow for the bar */
-        align-items: center; /* Center items vertically */
-        justify-content: center; /* Center items horizontally */
-        z-index: 100; /* Ensure it is above other content */
-        padding: 0 20px; /* Add some padding */
-        flex-direction: row; /* Horizontal layout */
-    }
+  .container {
+    display: flex; /* Show the container */
+    height: 10vh; /* Adjust height */
+    width: 100%; /* Full width of the viewport */
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    background-color: #e1a0a0; /* Background color */
+    box-shadow: 0 1px 5px rgba(30, 27, 27, 0.4); /* Shadow for the bar */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    z-index: 100; /* Ensure it is above other content */
+    padding: 0 20px; /* Add some padding */
+    flex-direction: row; /* Horizontal layout */
+  }
 
-    .logo {
-        margin-right: auto; /* Push the logo to the left */
-    }
+  .logo {
+    margin-right: auto; /* Push the logo to the left */
+  }
 
-    .container .options {
-        display: flex; /* Flex container for SVG and options */
-        align-items: center; /* Center items vertically */
-        background-color: aliceblue;
-    }
+  .container .options {
+    display: flex; /* Flex container for SVG and options */
+    align-items: center; /* Center items vertically */
+    background-color: aliceblue;
+  }
 
-    .container svg {
-position: fixed;    
-top: 2%;
-right: 4%;
-}
+  .container svg {
+    position: fixed;
+    top: 2%;
+    right: 4%;
+  }
 
-.container ul {
+  .container ul {
     list-style: none;
     position: fixed;
     padding: 0;
-    
+
     top: 10vh;
     right: 4vw;
     width: 16vw; /* Ensures the list takes full width */
@@ -93,9 +92,9 @@ right: 4%;
     flex-direction: column;
     align-items: flex-start; /* Align items to the start */
     transition: opacity 0.3s ease; /* Smooth fade-in effect */
-}
+  }
 
-.container ul li {
+  .container ul li {
     width: 100%;
     margin: 0.5rem 0; /* Space between items */
     padding: 0.5rem 1rem; /* Padding inside each item */
@@ -104,24 +103,22 @@ right: 4%;
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth background change */
     cursor: pointer; /* Pointer cursor for clickable items */
-}
+  }
 
-.container ul li:hover {
+  .container ul li:hover {
     background-color: #ddb2b2; /* Slightly darker on hover */
-}
+  }
 
-.container ul li.active {
-    background-color: #8B4513; /* Highlight active item with the stroke color */
- 
+  .container ul li.active {
+    background-color: #8b4513; /* Highlight active item with the stroke color */
+
     font-weight: bold; /* Make the active item bold */
-}
+  }
 
-.container ul a {
+  .container ul a {
     color: inherit; /* Inherit text color */
     text-decoration: none; /* Remove underline */
     width: 100%; /* Ensure the anchor tag takes full width */
     display: block; /* Make the anchor tag block-level */
-}
-
-
+  }
 }
