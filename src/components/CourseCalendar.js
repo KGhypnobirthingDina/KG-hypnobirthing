@@ -5,29 +5,29 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import allLocales from "@fullcalendar/core/locales-all";
-
+import imgSrc from "../dina-salon.jpeg";
 export default function CourseCalendar() {
   const events = [
     {
       title: "ימי חמישי",
       start: "2024-09-05",
       extendedProps: {
-        description: "12:00 - 9:00"
-      }
+        description: "12:00 - 9:00",
+      },
     },
     {
       title: "ימי שלישי",
       start: "2024-10-01",
       extendedProps: {
-        description: "12:00 - 9:00"
-      }
+        description: "12:00 - 9:00",
+      },
     },
     {
       title: "ימי חמישי",
       start: "2024-11-07",
       extendedProps: {
-        description: "12:00 - 9:00"
-      }
+        description: "12:00 - 9:00",
+      },
     },
   ];
 
@@ -60,6 +60,7 @@ export default function CourseCalendar() {
         width="60vw"
         fixedWeekCount={false} // ביטול ספירת השבועות הקבועה
       />
+      <img src={imgSrc} alt="dina" />
     </div>
   );
 }

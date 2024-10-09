@@ -4,3 +4,11 @@ margin-top: 5vh;
 .container img {
 width: 30vw;
 }
+
+
+@media(max-width: 1250px) {
+    .container img {
+        width: 80vw;
+    }
+
+}

@@ -2,23 +2,31 @@
     text-align: right;
     direction: rtl;
 
-max-width: 44vw;
-    font-size: 1.3vw;
-     margin: 0 auto; padding: 10px; 
+max-width: 60vw;
+
+    font-size: 2vw;
+    margin-left: 26.5vw;
+   
 }
 .container ul li{
     text-align: right;
     direction: rtl;
     margin: 0 auto; 
 width: 38vw;
-    font-size: 1.3vw;
+    font-size: 2vw;
+    margin-left: 26.5vw;
 
      
+}
+.container ul {
+    margin-left: 17.5vw;
 }
 .container h2 {
     direction: rtl;
     text-align: right;
-    width: 72vw;
+    width: 86.5vw;
+    font-size: 3vw;
+    
     
 }
 .container ul li {
@@ -27,12 +35,22 @@ width: 38vw;
 
 @media(max-width: 1250px) {
     .container p {
-        font-size: 3vw;
-        max-width: 60vw;
+        font-size: 5vw;
+        max-width: 80vw;
+        margin-left: 10vw;
     }
 
     .container ul li {
-        font-size: 3vw;
-        max-width: 60vw;
+        font-size: 5vw;
+        margin-left: 20vw;
+        
+        direction: rtl;
+            text-align: right;
+    }
+    .container h2 {
+        direction: rtl;
+            text-align: right;
+            width: 90vw;
+            font-size: 6vw;
     }
 }

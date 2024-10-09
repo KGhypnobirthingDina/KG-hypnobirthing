@@ -1,6 +1,6 @@
 .container img {
     width: 20vw;
-
+    border-radius: 50%;
 }
 
 .container p {
@@ -13,12 +13,13 @@
 
 @media(max-width: 1250px) {
     .container p {
-        font-size: 3vw;
-        max-width: 60vw;
+        font-size: 5vw;
+        max-width: 80vw;
     }
 
     .container img {
         width: 60vw;
+        border-radius: 50%;
     }
 
 }

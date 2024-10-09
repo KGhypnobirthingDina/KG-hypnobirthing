@@ -3,7 +3,7 @@
 .container {
     display: flex;
     position: absolute;
-    top: 30%;
+    top: 34%;
     justify-content: center;
     align-items: center;
     margin-left: 2vw;
@@ -33,7 +33,12 @@
     margin-bottom: 20px;
     color: #8f3c3c; /* Added color for better contrast */
 }
-
+.p {
+  
+    display: none;
+    position: absolute;
+    top: 30%
+}
  section {
     background-color: #d48c8c;
     padding: 20px;
@@ -97,6 +102,12 @@ textarea {
 }
 
 @media (max-width: 1250px) {
+     .p {
+display: block;
+position: static;
+color: #d48c8c;
+
+    }
     .style {
       
         width: 80vw;

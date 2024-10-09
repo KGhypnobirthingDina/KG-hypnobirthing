@@ -16,6 +16,7 @@
 
           @media(max-width: 1250px) {
             .container h1{
-                font-size: 8vw
+                font-size: 8vw;
+                margin-top: 12vh;
             }
           }

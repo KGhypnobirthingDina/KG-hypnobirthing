@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./About.module.css"
 import Contact from "./Contact"
+import imgSrc from "../dina-img.jpeg"
 export default function About() {
     return (
         <div className={styles.container}>
 
             <h2>:קצת עליי </h2>
 
-            <img src="/images/dina-img.jpeg" alt="About Me" />
+            <img src={imgSrc} alt="About Me" />
             <p>
 
                 שלום, שמי דינה לויטן תורגמן אימא לארבעה ילדים, גרה במודיעין. מדריכת הכנה ללידה בשיטת לידה רכה היפנוברת'ינג, מורה לביולוגיה, מדעי הסביבה וחינוך מיוחד.
