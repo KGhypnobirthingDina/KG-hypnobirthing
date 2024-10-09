@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+.container h1{display: block;
+
+    margin-top: 20vh;
+    background-color: rgb(215, 149, 149);
+         font-family: Arial;
+          font-size: 4vw}
+
+
+          @media(max-width: 1250px) {
+            .container h1{
+                font-size: 8vw;
+                margin-top: 12vh;
+            }
+          }
